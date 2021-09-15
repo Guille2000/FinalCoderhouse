@@ -1,0 +1,297 @@
+              /*PANTALLAS DE KINDLE LINUX*/
+              @media (max-width:1200px){
+                .container{
+                    display:flex;
+                    flex-direction: column;
+                }
+                .empresas-logo{
+                    height:100px;
+                }
+                .contenedor{
+                    display:flex;
+                    flex-direction: column;
+                }
+                .contenedor-testimonios{
+                    display:flex;
+                    flex-direction:column;
+                }
+               
+                .nosotros img{
+                    width:100%;
+                }
+                .sidebar{
+                    height:250px;
+                }
+                .sidebar__textos p{
+                    font-size: 2rem;
+                }
+                .cursos{
+                    display:flex;
+                    flex-wrap:wrap;
+                }
+            }
+            
+            
+            
+            /*PANTALLA IPAD*/
+            @media (max-width:1024px){
+                .card {
+                    padding: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .personas img{
+                    width:50%;
+                }
+                
+            }
+            
+            
+                                        /*PANTALLAS DE CELULARES*/
+            @media (max-width:798px){
+            
+                .contenedor {
+                    margin: 30px auto;
+                    display:block;
+                    max-width: 100%;
+                    margin-right: auto;
+                    padding: 40px 0;
+                    background-color: #3B3231;
+                    box-shadow: 0 0 20px 0 rgb(255 255 255 / 30%);
+                }
+                .ham{
+                    display:block;
+                    position:absolute;
+                    top:15px;
+                    right:25px;
+                }
+                .contenedor .central p {
+                    font-size: 2rem;
+                    text-align: left;
+                }
+                .card {
+                    padding: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .contenedor .central h2 {
+                    text-align: left;
+                }
+                .contenedor .central h3 {
+                    margin-right:20px;
+                }
+                .contenedor .central {
+                    color: white;
+                    grid-column: span 2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px 20px;
+                }
+                .contenedor .imagenes {
+                    margin-top: 20px;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 50% 50%;
+                }
+                .footer__contenedor{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(5, auto);
+                   }
+               .footer p{
+                   margin-top:10px;
+                   font-size:1.5rem;
+               }
+               .footer i{
+                   font-size:1.8rem;
+               }
+               .newsletter{
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               }
+               .redes {
+                margin-top: 10px;
+                gap: 2rem;
+            }
+               .container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+                 .contenedor-testimonios{
+                     display:flex;
+                     flex-direction:column;
+                 }
+                 .personas{
+                     display:flex;
+                     flex-direction:column;
+                     width:90%;
+                 }
+                 .empresas h4{
+                     font-size:2rem;
+                 }
+                 .empresas p{
+                     font-size:1.5rem;
+                 }
+                .empresas-logo img{
+                    width:90%;
+                }
+                .cursos{
+                    display:flex;
+                    flex-wrap:wrap;
+                }
+                .cursos img{
+                    padding-right:15px;
+                }
+                .curso-desarrolloweb {
+                    margin: 20px auto;
+                    width: 100%;
+                }
+                .desarrolloweb p, ol {
+                    margin:0 auto;
+                }
+                .desarrolloweb img{
+                    width:350px;
+                }
+                h2, p, ol {
+                    width: 85%;
+                }
+                .desarrolloweb h2, p, ol {
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                .diseñografico{
+                margin: 20px auto;
+                width: 100%;
+                } 
+                    .diseñador img{
+                        width:350px;
+                    }
+                    .diseñador p, ol {
+                        margin: 0 auto;
+                }
+                .diseñador h2, p, ol {
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            
+                .marketing{
+                    margin: 20px auto;
+                    width: 100%;
+                }
+                .cursomark img{
+                    width:350px;
+                }
+                .cursomark p, ol {
+                    margin: 0 auto;
+                }
+                .cursomark h2, p, ol {
+                    text-align: center;
+                    margin: 0 auto;
+            }
+                .robotica {
+                    margin: 20px auto;
+                    width: 100%;
+                }
+                .roboticacurso img{
+                    width:350px;
+                }
+                .robot p, ol {
+                    margin: 0 auto;
+                }
+                .robot h2, p, ol {
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                .sidebar {
+                    height: 200px;
+                }
+                .sidebar__textos {
+                    display: flex;
+                    padding-top: 2px;
+                    
+                }
+                    .sidebar__textos p {
+                        font-size: 2rem;
+                        line-height: 1.9rem;
+                        margin-top:15px;
+            }
+            .sidebar__textos h2 {
+                font-size:3rem;
+                text-align: center;
+                margin:20px;
+            
+            }
+                .nosotros {
+                    display: block;
+                }
+                .nosotros__imagen{
+                display: Flex;
+                flex-direction: column;
+            }
+                
+                 .dueños{
+                  display:block;
+                 }     
+            
+                .contact-form {
+                    background: #222;
+                    width: 90%;
+                    margin:0 auto;
+                }
+                .contact-form form{
+                    display:flex;
+                    flex-direction:column;
+            }
+                .contact-info{
+                    display:flex;
+                    flex-direction: column;
+                }
+                .contact-info h4{
+                    font-size:1.5rem;
+                    text-align:center;
+                }
+                .contact-info ul, p{
+                    font-size:1.4rem;
+                    text-align:center;
+                }
+                .enlaces {
+                    justify-content: space-around;
+                    flex-direction:column;
+                    margin:0;
+                    padding:0;
+                    width:100%;
+                    display:none;
+                }
+                .enlaces.activado{
+                    display:flex;
+                }
+                .enlaces li{
+                    text-align:center;
+                    width:100%;
+                    padding:20px;
+                }
+                .contenedor .central h2 {
+                    text-align: center;
+                }
+                .contenedor{
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            
+                .contenedor .imagenes p {
+                    text-align: left;
+                    margin-left: 50px;
+                }
+            }
+            
+               
+            
+   
