@@ -15,6 +15,9 @@
 .button-4 {
   width: 170px; }
 
+button {
+  border: none; }
+
 html {
   font-size: 62.5%; }
 

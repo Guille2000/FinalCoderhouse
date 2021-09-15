@@ -15,6 +15,9 @@ $width-button:120px;
 .button-4{
     width: $width-button+50px;
 }
+button{
+    border:none;
+}
    
 html{
     font-size:62.5%;
