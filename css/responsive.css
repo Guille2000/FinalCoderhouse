@@ -44,6 +44,9 @@
                 .personas img{
                     width:50%;
                 }
+                .dropdown-item{
+                    text-align:center;
+                }
                 
             }
             
