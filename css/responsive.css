@@ -44,10 +44,8 @@
                 .personas img{
                     width:50%;
                 }
-                .dropdown-item{
-                    text-align:center;
-                }
-                
+               
+  
             }
             
             
@@ -160,6 +158,9 @@
                 }
                 .desarrolloweb img{
                     width:350px;
+                }
+                .dropdown-item {
+                    text-align: justify;
                 }
                 h2, p, ol {
                     width: 85%;
